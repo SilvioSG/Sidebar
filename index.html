@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Boxicons CSS-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_contem">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+            <img src="./images/menu.svg" id="btn">
+        </div>
+        <div>
+            <ul class="nav_list">
+                <li>
+                    <img src="./images/search.svg" class="search"> 
+                    <input type="search" placeholder="Buscar...">
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/grid.svg">
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/pet.svg">
+                        <span class="links_name">Pets</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/user.svg">
+                        <span class="links_name">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/vet.svg">
+                        <span class="links_name">Vets</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/settings.svg">
+                        <span class="links_name">Ajustes</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_detalhes">
+                    <img src="./images/photo.jpg">
+                    <div class="profileInf">
+                        <div class="name_job">
+                            <div class="name">
+                                Eleanor pena
+                            </div>
+                            <div class="job">
+                                Veterinária
+                            </div>
+                    </div>
+                    </div>
+                    <img src="./images/log-out.svg" alt="botão para deslogar" id="log-out">
+                </div>
+            </div>
+        </div>
+        <div class="home_contem">
+            <div class="text">
+                Dashboard
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
